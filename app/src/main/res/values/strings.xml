@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CATE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_heavy_metal_music">UCSkJDgBGvNOEXSQl4YNjDtQ</string>
+    <string name="category_music">UC-9-kyTW8ZkZNDHQJ6FgpwQ</string>
+    <string name="GOOGLE_YOUTUBE_API_KEY">AIzaSyDDNXQW5vUsBy91h_swoSAc_uFFAG14Clo</string>
+    <string name="CHANNEL_ID">UCEgdi0XIXXZ-qJOFPf4JSKw</string>
+    <string name="kakao_app_key">c0b31eee0a3442696e590addd4660ca7</string>
+    <string-array name="sortMenu">
+        <item>인기순</item>
+        <item>추천순</item>
+        <item>최신순</item>
+    </string-array>
+    <string-array name="categoryList">
+        <item>LOL</item>
+        <item>게임</item>
+        <item>배그</item>
+        <item>오버워치</item>
+        <item>유머</item>
+        <item>음악</item>
+        <item>감동</item>
+        <item>동물</item>
+        <item>스포츠</item>
+        <item>기타</item>
+    </string-array>
+
+    <string name="login">LOGIN</string>
+    <string name="password">PASSWORD</string>
+    <string name="register">REGISTER</string>
+    <string name="id">ID</string>
+    <string name="test">TEST</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="author">author</string>
+    <string name="date">date</string>
+    <string name="image">IMAGE</string>
+    <string name="desc">desc</string>
+    <string name="_00">00</string>
+    <string name="report">신고하기</string>
+    <string name="input">입력</string>
+    <string name="video_title">VIDEO TITLE</string>
+    <string name="description">description</string>
+    <string name="input_comment">댓글을 입력하시오.</string>
+    <string name="my_comment">내가 쓴 댓글</string>
+    <string name="video_list_like">좋아요 누른 동영상</string>
+    <string name="cate_logo">CATE LOGO</string>
+    <string name="input_name">이름을 입력하시오.</string>
+    <string name="request_register">회원가입 요청</string>
+    <string name="check_password">비밀번호를 확인하시오.</string>
+    <string name="input_password">비밀번호을 입력하시오.</string>
+    <string name="input_id">아이디를 입력하시오.</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_detail">category_detail</string>
+    <string name="title">제목</string>
+    <string name="url">URL</string>
+    <string name="category">카테고리</string>
+    <string name="confirm">확인</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="70dp"
+        android:contentDescription="@string/cate_logo"
+        android:src="@drawable/cate_logo"/>
+
+    <EditText
+        android:id="@+id/new_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/input_name"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/new_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/input_id"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/new_pw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/input_password"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/new_pw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/check_password"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="insert"
+        android:text="@string/request_register"
+        android:background="@drawable/button"/>
+
+
+</LinearLayout>

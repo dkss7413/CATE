@@ -1,0 +1,68 @@
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mList_horizontal_category"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:scrollbars="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <Spinner
+                android:id="@+id/spinnerSort"
+                style="@style/Widget.AppCompat.Spinner.DropDown"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:background="@drawable/spinner_background"
+                android:dropDownWidth="match_parent"
+                android:dropDownSelector="@color/gray"
+                android:ellipsize="marquee"
+                android:entries="@array/sortMenu"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progressBarFirst"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="700dp"
+            android:layout_below="@+id/ss"
+            />
+
+     <com.baoyz.widget.PullRefreshLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/swipeRefreshLayout"
+         android:layout_below="@+id/progressBarFirst"
+         android:layout_above="@id/progressBarHome">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mList_videos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         android:scrollbars="vertical"/>
+
+
+     </com.baoyz.widget.PullRefreshLayout>
+     <ProgressBar
+         android:id="@+id/progressBarHome"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
